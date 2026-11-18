@@ -1,0 +1,508 @@
+{
+  "stores": [
+    {
+      "id": "st_101",
+      "name": "SliceOrder Capitol Hill",
+      "address": {
+        "line1": "1420 E Pine St",
+        "city": "Seattle",
+        "state": "WA",
+        "zip": "98122"
+      },
+      "order_types": [
+        "pickup",
+        "delivery"
+      ],
+      "delivery_fee": 2.0,
+      "hours": {
+        "open": "11:00",
+        "close": "22:00"
+      },
+      "timezone": "America/Los_Angeles",
+      "open_now": true
+    },
+    {
+      "id": "st_102",
+      "name": "SliceOrder Ballard",
+      "address": {
+        "line1": "5300 Ballard Ave NW",
+        "city": "Seattle",
+        "state": "WA",
+        "zip": "98107"
+      },
+      "order_types": [
+        "pickup",
+        "delivery"
+      ],
+      "delivery_fee": 2.0,
+      "hours": {
+        "open": "11:00",
+        "close": "22:00"
+      },
+      "timezone": "America/Los_Angeles",
+      "open_now": true
+    },
+    {
+      "id": "st_103",
+      "name": "SliceOrder Fremont",
+      "address": {
+        "line1": "3500 Fremont Ave N",
+        "city": "Seattle",
+        "state": "WA",
+        "zip": "98103"
+      },
+      "order_types": [
+        "pickup"
+      ],
+      "delivery_fee": null,
+      "hours": {
+        "open": "11:00",
+        "close": "21:00"
+      },
+      "timezone": "America/Los_Angeles",
+      "open_now": true
+    },
+    {
+      "id": "st_104",
+      "name": "SliceOrder Bellevue",
+      "address": {
+        "line1": "10400 NE 4th St",
+        "city": "Bellevue",
+        "state": "WA",
+        "zip": "98004"
+      },
+      "order_types": [
+        "pickup",
+        "delivery"
+      ],
+      "delivery_fee": 2.0,
+      "hours": {
+        "open": "11:00",
+        "close": "22:00"
+      },
+      "timezone": "America/Los_Angeles",
+      "open_now": true
+    }
+  ],
+  "menus": [
+    {
+      "store_id": "st_101",
+      "currency": "USD",
+      "sizes": [
+        {
+          "id": "small",
+          "diameter_in": 10
+        },
+        {
+          "id": "medium",
+          "diameter_in": 12
+        },
+        {
+          "id": "large",
+          "diameter_in": 14
+        }
+      ],
+      "pizzas": [
+        {
+          "sku": "margherita",
+          "name": "Margherita",
+          "prices": {
+            "small": 9.0,
+            "medium": 11.0,
+            "large": 12.5
+          }
+        },
+        {
+          "sku": "pepperoni_classic",
+          "name": "Pepperoni Classic",
+          "prices": {
+            "small": 10.0,
+            "medium": 12.0,
+            "large": 13.5
+          }
+        },
+        {
+          "sku": "build_your_own",
+          "name": "Build Your Own",
+          "prices": {
+            "small": 8.5,
+            "medium": 10.5,
+            "large": 12.0
+          }
+        }
+      ],
+      "toppings": [
+        {
+          "id": "pepperoni",
+          "name": "Pepperoni",
+          "price": 1.5
+        },
+        {
+          "id": "sausage",
+          "name": "Italian sausage",
+          "price": 1.75
+        },
+        {
+          "id": "mushrooms",
+          "name": "Mushrooms",
+          "price": 1.25
+        },
+        {
+          "id": "extra_cheese",
+          "name": "Extra cheese",
+          "price": 1.0
+        }
+      ],
+      "id": "st_101"
+    },
+    {
+      "store_id": "st_102",
+      "currency": "USD",
+      "sizes": [
+        {
+          "id": "small",
+          "diameter_in": 10
+        },
+        {
+          "id": "medium",
+          "diameter_in": 12
+        },
+        {
+          "id": "large",
+          "diameter_in": 14
+        }
+      ],
+      "pizzas": [
+        {
+          "sku": "margherita",
+          "name": "Margherita",
+          "prices": {
+            "small": 9.0,
+            "medium": 11.0,
+            "large": 12.5
+          }
+        },
+        {
+          "sku": "pepperoni_classic",
+          "name": "Pepperoni Classic",
+          "prices": {
+            "small": 10.0,
+            "medium": 12.0,
+            "large": 13.5
+          }
+        },
+        {
+          "sku": "build_your_own",
+          "name": "Build Your Own",
+          "prices": {
+            "small": 8.5,
+            "medium": 10.5,
+            "large": 12.0
+          }
+        }
+      ],
+      "toppings": [
+        {
+          "id": "pepperoni",
+          "name": "Pepperoni",
+          "price": 1.5
+        },
+        {
+          "id": "sausage",
+          "name": "Italian sausage",
+          "price": 1.75
+        },
+        {
+          "id": "mushrooms",
+          "name": "Mushrooms",
+          "price": 1.25
+        },
+        {
+          "id": "extra_cheese",
+          "name": "Extra cheese",
+          "price": 1.0
+        }
+      ],
+      "id": "st_102"
+    },
+    {
+      "store_id": "st_103",
+      "currency": "USD",
+      "sizes": [
+        {
+          "id": "small",
+          "diameter_in": 10
+        },
+        {
+          "id": "medium",
+          "diameter_in": 12
+        },
+        {
+          "id": "large",
+          "diameter_in": 14
+        }
+      ],
+      "pizzas": [
+        {
+          "sku": "margherita",
+          "name": "Margherita",
+          "prices": {
+            "small": 9.0,
+            "medium": 11.0,
+            "large": 12.5
+          }
+        },
+        {
+          "sku": "pepperoni_classic",
+          "name": "Pepperoni Classic",
+          "prices": {
+            "small": 10.0,
+            "medium": 12.0,
+            "large": 13.5
+          }
+        },
+        {
+          "sku": "build_your_own",
+          "name": "Build Your Own",
+          "prices": {
+            "small": 8.5,
+            "medium": 10.5,
+            "large": 12.0
+          }
+        }
+      ],
+      "toppings": [
+        {
+          "id": "pepperoni",
+          "name": "Pepperoni",
+          "price": 1.5
+        },
+        {
+          "id": "sausage",
+          "name": "Italian sausage",
+          "price": 1.75
+        },
+        {
+          "id": "mushrooms",
+          "name": "Mushrooms",
+          "price": 1.25
+        },
+        {
+          "id": "extra_cheese",
+          "name": "Extra cheese",
+          "price": 1.0
+        }
+      ],
+      "id": "st_103"
+    },
+    {
+      "store_id": "st_104",
+      "currency": "USD",
+      "sizes": [
+        {
+          "id": "small",
+          "diameter_in": 10
+        },
+        {
+          "id": "medium",
+          "diameter_in": 12
+        },
+        {
+          "id": "large",
+          "diameter_in": 14
+        }
+      ],
+      "pizzas": [
+        {
+          "sku": "margherita",
+          "name": "Margherita",
+          "prices": {
+            "small": 9.0,
+            "medium": 11.0,
+            "large": 12.5
+          }
+        },
+        {
+          "sku": "pepperoni_classic",
+          "name": "Pepperoni Classic",
+          "prices": {
+            "small": 10.0,
+            "medium": 12.0,
+            "large": 13.5
+          }
+        },
+        {
+          "sku": "build_your_own",
+          "name": "Build Your Own",
+          "prices": {
+            "small": 8.5,
+            "medium": 10.5,
+            "large": 12.0
+          }
+        }
+      ],
+      "toppings": [
+        {
+          "id": "pepperoni",
+          "name": "Pepperoni",
+          "price": 1.5
+        },
+        {
+          "id": "sausage",
+          "name": "Italian sausage",
+          "price": 1.75
+        },
+        {
+          "id": "mushrooms",
+          "name": "Mushrooms",
+          "price": 1.25
+        },
+        {
+          "id": "extra_cheese",
+          "name": "Extra cheese",
+          "price": 1.0
+        }
+      ],
+      "id": "st_104"
+    }
+  ],
+  "toppings": [
+    {
+      "id": "pepperoni",
+      "name": "Pepperoni",
+      "price": 1.5
+    },
+    {
+      "id": "sausage",
+      "name": "Italian sausage",
+      "price": 1.75
+    },
+    {
+      "id": "mushrooms",
+      "name": "Mushrooms",
+      "price": 1.25
+    },
+    {
+      "id": "extra_cheese",
+      "name": "Extra cheese",
+      "price": 1.0
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord_8f3a21",
+      "order_id": "ord_8f3a21",
+      "status": "received",
+      "store_id": "st_104",
+      "type": "delivery",
+      "items": [
+        {
+          "sku": "margherita",
+          "size": "large",
+          "qty": 1,
+          "toppings": [],
+          "line_total": 12.5
+        }
+      ],
+      "subtotal": 12.5,
+      "delivery_fee": 2.0,
+      "total": 14.5,
+      "eta_minutes": 35,
+      "scheduled_for": null,
+      "created_at": "2026-11-10T19:42:10Z"
+    },
+    {
+      "id": "ord_2c7d90",
+      "order_id": "ord_2c7d90",
+      "status": "preparing",
+      "store_id": "st_102",
+      "type": "pickup",
+      "items": [
+        {
+          "sku": "build_your_own",
+          "size": "medium",
+          "qty": 2,
+          "toppings": [
+            "mushrooms",
+            "extra_cheese"
+          ],
+          "line_total": 25.5
+        }
+      ],
+      "subtotal": 25.5,
+      "delivery_fee": 0.0,
+      "total": 25.5,
+      "eta_minutes": 20,
+      "scheduled_for": null,
+      "created_at": "2026-11-10T19:15:30Z"
+    },
+    {
+      "id": "ord_5e1a44",
+      "order_id": "ord_5e1a44",
+      "status": "out_for_delivery",
+      "store_id": "st_101",
+      "type": "delivery",
+      "items": [
+        {
+          "sku": "pepperoni_classic",
+          "size": "large",
+          "qty": 1,
+          "toppings": [
+            "extra_cheese"
+          ],
+          "line_total": 14.5
+        }
+      ],
+      "subtotal": 14.5,
+      "delivery_fee": 2.0,
+      "total": 16.5,
+      "eta_minutes": 12,
+      "scheduled_for": null,
+      "created_at": "2026-11-10T19:20:44Z"
+    },
+    {
+      "id": "ord_9b3f68",
+      "order_id": "ord_9b3f68",
+      "status": "ready_for_pickup",
+      "store_id": "st_103",
+      "type": "pickup",
+      "items": [
+        {
+          "sku": "margherita",
+          "size": "medium",
+          "qty": 2,
+          "toppings": [],
+          "line_total": 22.0
+        }
+      ],
+      "subtotal": 22.0,
+      "delivery_fee": 0.0,
+      "total": 22.0,
+      "eta_minutes": 0,
+      "scheduled_for": null,
+      "created_at": "2026-11-10T19:50:02Z"
+    }
+  ],
+  "webhook_endpoints": [
+    {
+      "id": "we_3b9d",
+      "url": "https://app.example.com/hooks/sliceorder",
+      "secret": "whsec_8d41f0"
+    },
+    {
+      "id": "we_7a2e",
+      "url": "https://app.example.com/hooks/sliceorder-staging",
+      "secret": "whsec_2f9c63"
+    },
+    {
+      "id": "we_c41f",
+      "url": "https://orders.example.org/webhooks/sliceorder",
+      "secret": "whsec_a15d07"
+    },
+    {
+      "id": "we_e90b",
+      "url": "https://example.net/hooks/pizza",
+      "secret": "whsec_6b83e4"
+    }
+  ]
+}
