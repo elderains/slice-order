@@ -3,8 +3,23 @@
 # vale off
 
 layout: default
+nav_order: 2
+# tags used by AI files
 description: SliceOrder Quickstart
 topic_type: overview
+tags: 
+    - introduction
+categories: 
+    - tutorial
+ai_relevance: high
+importance: 9
+prerequisites: []
+related_pages: 
+    - /api/index
+examples: []
+api_endpoints: []
+version: "v1.0"
+last_updated: "2026-11-19"
 # test:
 #   test_apps:
 #     - json-server@0.17.4
@@ -56,9 +71,9 @@ To complete the tutorials in this section, you need the following:
 
 * Background in REST API functionality.
 * A [GitHub account](https://github.com).
-* Fork this repository, or otherwise obtain a current copy
-of
-[api/pizzaSlicedb.json](../api/pizzaSlicedb.json).
+* A fork of this repo.
+* A current copy of the database (`api/pizzSlicedb.json`,
+obtained when you forked this repo).
 * Version 0.17.4 of [json-server](https://www.npmjs.com/package/json-server/v/0.17.4).
 * A **terminal to run curl** or the **[Postman desktop app](https://www.postman.com/downloads/)**.
         Because you run the **SliceOrder** on your development system with an `http://localhost`
