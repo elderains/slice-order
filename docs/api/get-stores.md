@@ -15,9 +15,9 @@ categories:
 ai_relevance: high
 importance: 8
 prerequisites: 
-    - ../docs/quickstart.md
+    - /docs/quickstart
 related_pages: 
-    - /store.md
+    - /docs/store
 examples: []
 test:
     test_apps:
@@ -62,7 +62,7 @@ None.
 ## Response Body
 
 ```json
-    {
+   {
     "id": "st_101",
     "name": "SliceOrder Capitol Hill",
     "address": {
@@ -70,6 +70,27 @@ None.
       "city": "Seattle",
       "state": "WA",
       "zip": "98122"
+    },
+    "order_types": [
+      "pickup",
+      "delivery"
+    ],
+    "delivery_fee": 2,
+    "hours": {
+      "open": "11:00",
+      "close": "22:00"
+    },
+    "timezone": "America/Los_Angeles",
+    "open_now": true
+  },
+  {
+    "id": "st_102",
+    "name": "SliceOrder Ballard",
+    "address": {
+      "line1": "5300 Ballard Ave NW",
+      "city": "Seattle",
+      "state": "WA",
+      "zip": "98107"
     },
     "order_types": [
       "pickup",
@@ -90,7 +111,6 @@ None.
 ### `GET` example request
 
 ```json
-
 curl -G -H "Accept: application/json" \
     --url "http://localhost:3000/stores"
 ```
