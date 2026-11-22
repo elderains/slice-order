@@ -4,9 +4,8 @@
 # tags used by just-the-docs theme
 layout: default
 nav_order: 1
-parent: store
+parent: store resource
 has_children: false
-has_toc: false
 # tags used by AI files
 description: "Get all `store` resources"
 topic_type: reference
@@ -31,7 +30,7 @@ last_updated: "2026-11-21"
 
 # Get all stores
 
-Returns an array of of `store` objects that contains
+Returns an array of `store` objects that contains
 all stores within the API.
 
 Base endpoint:
@@ -136,25 +135,6 @@ curl -G -H "Accept: application/json" \
     "open_now": true
   }
 ```
-
-## Resource properties
-
-| Property name | Type | Description |
-| ------------- | ----------- | ----------- |
-| `id` | number | The store's unique record ID |
-| `name` | string | The store name |
-| `address` | object | Object containing store address details |
-| `line1` | string | The store's street address |
-| `city` | string | The city where the store is located |
-| `state` | string | The state the store is located |
-| `zip` | number | The zip code where the store is located |
-| `order_types` | array | Array containing items `pickup` or `delivery` |
-| `delivery_fee` | number | Fee for `order_type`:`delivery` |
-| `hours` | object | Object containing store open and close times today |
-| `open` | string | Store's local opening time in 00:00 24-hour time format |
-| `closed` | string | Store's local closing time in 00:00 24-hour time format |
-| `timezone` | string | Store timezone |
-| `open_now` | boolean | Whether the store is currently open based on store local time |
 
 ## Response status
 

@@ -3,7 +3,8 @@
 # vale off
 # tags used by just-the-docs theme
 layout: default
-nav_order: 5
+nav_order: 1
+parent: api
 has_children: true
 has_toc: false
 # tags used by AI files
@@ -15,19 +16,20 @@ categories:
     - api-reference
 ai_relevance: high
 importance: 8
-prerequisites: []
+prerequisites: 
+    - ../docs/quickstart.md
 related_pages: 
-    - /tutorials/get-store
+    - /get-all-stores.md
 examples: []
 api_endpoints: 
     - /stores
 version: "v1.0"
-last_updated: "2026-11-19"
+last_updated: "2026-11-21"
 # vale  on
 # markdownlint-enable
 ---
 
-# `stores` resource
+# `store` resource
 
 Base endpoint:
 
@@ -41,9 +43,9 @@ A store resource contains location, hours, and delivery
 information about stores in the pizza business.
 
 Before you can create a `menu` or `order` resource in the service,
-you must create the `store` resource to assign to the `menu` or `order`.
+you must create a `store` resource to assign to the `menu` or `order`.
 
-Learn more about the [menus](menus.md) *(coming soon)* and [orders](orders.md) *(coming soon)* resources.
+Learn more about the [menus](#store-resource) *(coming soon)* and [orders](#store-resource) *(coming soon)* resources.
 
 ## Resource properties
 
