@@ -4,9 +4,8 @@
 # tags used by just-the-docs theme
 layout: default
 nav_order: 2
-parent: store
+parent: store resource
 has_children: false
-has_toc: false
 # tags used by AI files
 description: "Get a specific `store` resource based on ID"
 topic_type: reference
