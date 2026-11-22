@@ -4,7 +4,6 @@
 # tags used by just-the-docs theme
 layout: default
 nav_order: 1
-parent: api
 has_children: true
 has_toc: false
 # tags used by AI files
