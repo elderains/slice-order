@@ -3,11 +3,11 @@
 # vale off
 # tags used by just-the-docs theme
 layout: default
-nav_order: 1
+nav_order: 3
 has_children: true
-has_toc: false
+has_toc: true
 # tags used by AI files
-description: "Information about the `store` resource"
+description: Information about the `store` resource
 topic_type: reference
 tags: 
     - api
@@ -28,7 +28,7 @@ last_updated: "2026-11-21"
 # markdownlint-enable
 ---
 
-# `store` resource
+# `stores` resource
 
 Base endpoint:
 
@@ -44,7 +44,7 @@ information about stores in the pizza business.
 Before you can create a `menu` or `order` resource in the service,
 you must create a `store` resource to assign to the `menu` or `order`.
 
-Learn more about the [menus](#store-resource) *(coming soon)* and [orders](#store-resource) *(coming soon)* resources.
+Learn more about the [menus](#stores-resource) *(coming soon)* and [orders](#stores-resource) *(coming soon)* resources.
 
 ## Resource properties
 

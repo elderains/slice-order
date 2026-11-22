@@ -3,6 +3,7 @@
 # vale off
 
 layout: default
+nav_order: 2
 description: SliceOrder Quickstart
 topic_type: overview
 # test:
