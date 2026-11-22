@@ -3,11 +3,10 @@
 # vale off
 # tags used by just-the-docs theme
 layout: default
-nav_order: 1
 parent: store resource
-has_children: false
+nav_order: 2
 # tags used by AI files
-description: "Get all `store` resources"
+description: Get all `store` resources
 topic_type: reference
 tags: 
     - api
@@ -20,6 +19,13 @@ prerequisites:
 related_pages: 
     - /store.md
 examples: []
+test:
+    test_apps:
+        - json-server@0.17.4
+    server_url: localhost:3000
+    local_database: /api/pizzaSlicedb.json
+    testable:
+        - GET example
 api_endpoints: 
     - /stores
 version: "v1.0"
