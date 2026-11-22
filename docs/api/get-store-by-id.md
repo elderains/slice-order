@@ -15,9 +15,10 @@ categories:
 ai_relevance: high
 importance: 8
 prerequisites: 
-    - ../docs/quickstart.md
+    - /docs/quickstart
 related_pages: 
-    - /store.md
+    - docs/store
+    - docs/get-stores
 examples: []
 test:
     test_apps:

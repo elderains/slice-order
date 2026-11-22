@@ -13,7 +13,7 @@
         "pickup",
         "delivery"
       ],
-      "delivery_fee": 2.0,
+      "delivery_fee": 2,
       "hours": {
         "open": "11:00",
         "close": "22:00"
@@ -34,7 +34,7 @@
         "pickup",
         "delivery"
       ],
-      "delivery_fee": 2.0,
+      "delivery_fee": 2,
       "hours": {
         "open": "11:00",
         "close": "22:00"
@@ -75,10 +75,73 @@
         "pickup",
         "delivery"
       ],
-      "delivery_fee": 2.0,
+      "delivery_fee": 2,
       "hours": {
         "open": "11:00",
         "close": "22:00"
+      },
+      "timezone": "America/Los_Angeles",
+      "open_now": true
+    },
+    {
+      "id": "st_105",
+      "name": "SliceOrder West Seattle",
+      "address": {
+        "line1": "5907 California Ave SW",
+        "city": "Seattle",
+        "state": "WA",
+        "zip": "98136"
+      },
+      "order_types": [
+        "pickup",
+        "delivery"
+      ],
+      "delivery_fee": 2,
+      "hours": {
+        "open": "11:00",
+        "close": "23:00"
+      },
+      "timezone": "America/Los_Angeles",
+      "open_now": true
+    },
+    {
+      "id": "st_106",
+      "name": "SliceOrder Space Needle",
+      "address": {
+        "line1": "400 Broad St",
+        "city": "Seattle",
+        "state": "WA",
+        "zip": "98109"
+      },
+      "order_types": [
+        "pickup",
+        "delivery"
+      ],
+      "delivery_fee": 2,
+      "hours": {
+        "open": "10:00",
+        "close": "18:00"
+      },
+      "timezone": "America/Los_Angeles",
+      "open_now": true
+    },
+    {
+      "id": "st_107",
+      "name": "SliceOrder Downtown",
+      "address": {
+        "line1": "999 3rd Ave",
+        "city": "Seattle",
+        "state": "WA",
+        "zip": "98104"
+      },
+      "order_types": [
+        "pickup",
+        "delivery"
+      ],
+      "delivery_fee": 2,
+      "hours": {
+        "open": "10:00",
+        "close": "18:00"
       },
       "timezone": "America/Los_Angeles",
       "open_now": true
@@ -107,8 +170,8 @@
           "sku": "margherita",
           "name": "Margherita",
           "prices": {
-            "small": 9.0,
-            "medium": 11.0,
+            "small": 9,
+            "medium": 11,
             "large": 12.5
           }
         },
@@ -116,8 +179,8 @@
           "sku": "pepperoni_classic",
           "name": "Pepperoni Classic",
           "prices": {
-            "small": 10.0,
-            "medium": 12.0,
+            "small": 10,
+            "medium": 12,
             "large": 13.5
           }
         },
@@ -127,7 +190,7 @@
           "prices": {
             "small": 8.5,
             "medium": 10.5,
-            "large": 12.0
+            "large": 12
           }
         }
       ],
@@ -150,7 +213,7 @@
         {
           "id": "extra_cheese",
           "name": "Extra cheese",
-          "price": 1.0
+          "price": 1
         }
       ],
       "id": "st_101"
@@ -177,8 +240,8 @@
           "sku": "margherita",
           "name": "Margherita",
           "prices": {
-            "small": 9.0,
-            "medium": 11.0,
+            "small": 9,
+            "medium": 11,
             "large": 12.5
           }
         },
@@ -186,8 +249,8 @@
           "sku": "pepperoni_classic",
           "name": "Pepperoni Classic",
           "prices": {
-            "small": 10.0,
-            "medium": 12.0,
+            "small": 10,
+            "medium": 12,
             "large": 13.5
           }
         },
@@ -197,7 +260,7 @@
           "prices": {
             "small": 8.5,
             "medium": 10.5,
-            "large": 12.0
+            "large": 12
           }
         }
       ],
@@ -220,7 +283,7 @@
         {
           "id": "extra_cheese",
           "name": "Extra cheese",
-          "price": 1.0
+          "price": 1
         }
       ],
       "id": "st_102"
@@ -247,8 +310,8 @@
           "sku": "margherita",
           "name": "Margherita",
           "prices": {
-            "small": 9.0,
-            "medium": 11.0,
+            "small": 9,
+            "medium": 11,
             "large": 12.5
           }
         },
@@ -256,8 +319,8 @@
           "sku": "pepperoni_classic",
           "name": "Pepperoni Classic",
           "prices": {
-            "small": 10.0,
-            "medium": 12.0,
+            "small": 10,
+            "medium": 12,
             "large": 13.5
           }
         },
@@ -267,7 +330,7 @@
           "prices": {
             "small": 8.5,
             "medium": 10.5,
-            "large": 12.0
+            "large": 12
           }
         }
       ],
@@ -290,7 +353,7 @@
         {
           "id": "extra_cheese",
           "name": "Extra cheese",
-          "price": 1.0
+          "price": 1
         }
       ],
       "id": "st_103"
@@ -317,8 +380,8 @@
           "sku": "margherita",
           "name": "Margherita",
           "prices": {
-            "small": 9.0,
-            "medium": 11.0,
+            "small": 9,
+            "medium": 11,
             "large": 12.5
           }
         },
@@ -326,8 +389,8 @@
           "sku": "pepperoni_classic",
           "name": "Pepperoni Classic",
           "prices": {
-            "small": 10.0,
-            "medium": 12.0,
+            "small": 10,
+            "medium": 12,
             "large": 13.5
           }
         },
@@ -337,7 +400,7 @@
           "prices": {
             "small": 8.5,
             "medium": 10.5,
-            "large": 12.0
+            "large": 12
           }
         }
       ],
@@ -360,7 +423,7 @@
         {
           "id": "extra_cheese",
           "name": "Extra cheese",
-          "price": 1.0
+          "price": 1
         }
       ],
       "id": "st_104"
@@ -385,7 +448,7 @@
     {
       "id": "extra_cheese",
       "name": "Extra cheese",
-      "price": 1.0
+      "price": 1
     }
   ],
   "orders": [
@@ -405,7 +468,7 @@
         }
       ],
       "subtotal": 12.5,
-      "delivery_fee": 2.0,
+      "delivery_fee": 2,
       "total": 14.5,
       "eta_minutes": 35,
       "scheduled_for": null,
@@ -430,7 +493,7 @@
         }
       ],
       "subtotal": 25.5,
-      "delivery_fee": 0.0,
+      "delivery_fee": 0,
       "total": 25.5,
       "eta_minutes": 20,
       "scheduled_for": null,
@@ -454,7 +517,7 @@
         }
       ],
       "subtotal": 14.5,
-      "delivery_fee": 2.0,
+      "delivery_fee": 2,
       "total": 16.5,
       "eta_minutes": 12,
       "scheduled_for": null,
@@ -472,12 +535,12 @@
           "size": "medium",
           "qty": 2,
           "toppings": [],
-          "line_total": 22.0
+          "line_total": 22
         }
       ],
-      "subtotal": 22.0,
-      "delivery_fee": 0.0,
-      "total": 22.0,
+      "subtotal": 22,
+      "delivery_fee": 0,
+      "total": 22,
       "eta_minutes": 0,
       "scheduled_for": null,
       "created_at": "2026-11-10T19:50:02Z"
