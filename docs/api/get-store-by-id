@@ -3,8 +3,8 @@
 # vale off
 # tags used by just-the-docs theme
 layout: default
-parent: store resource
-nav_order: 2
+# parent: store resource
+nav_order: 5
 # tags used by AI files
 description: Get `store` resource by ID
 topic_type: reference
